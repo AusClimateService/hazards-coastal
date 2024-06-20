@@ -27,6 +27,8 @@ In terms of the colors:
 - :red_circle: The data processing has not yet started
 - :white_circle: Not intended for delivery/not applicable
 
+(Table was last updated 5pm 21/06/2024)
+
 | Index/metric | SLRI timeseries | SLRI 2D |  SLRI 2D change | (Notes) |
 |-----         | :-:      |:-:      |:-:            |-----    |
 | MSL |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
