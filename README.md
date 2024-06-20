@@ -5,6 +5,7 @@ Code and plots for 'coastal and estuarine flooding' and 'coastal erosion and sho
 GitHub repository for ACS Coastal Hazard Team to store, track and develop code. 
 
 ## Indices considered by the hazard team:
+- Mean Sea Level (Essential Climate Variable)
 - Flood days
 - Flood extent of 1% AEP
 - Change in frequency (multiplication factor) of storm tide levels (MF-ST)
@@ -30,10 +31,11 @@ In terms of the colors:
 
 | Index/metric | SLRI timeseries | SLRI 2D |  SLRI 2D change | (Notes) |
 |-----         | :-:      |:-:      |:-:            |-----    |
-| Flood days |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at NCI directory|
-| Flood extent |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at NCI directory|
-| MF-ST|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at NCI directory|
-| MF-TW |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at NCI directory|
+| MSL |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
+| Flood days |:green_circle:|:green_circle:|:green_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_days |
+| Flood extent |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
+| MF-ST|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF-ST|
+| MF-TW |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF-TW|
 
 ## Roadmap
 Coming soon..
