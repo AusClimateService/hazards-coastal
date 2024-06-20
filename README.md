@@ -21,8 +21,6 @@ We selected several SLR increments (SLRI) relative to the IPCC AR6 baseline of
 - 0.6 m: Approximate projected SLR at GWL 3.0, assuming GWL 3.0 is reached in 2090.
 - 1.0 m: Higher-end projected SLR consistent with jurisdictional planning benchmarks used in Australia (c.f., Dedekorkut-Howes et al. 2021, DOI: 10.1080/14693062.2020.1819766)
 
-MME = multi-model ensemble
-
 In terms of the colors:
 - :green_circle: The data is available in its final official form
 - :yellow_circle: The data creation is currently in progress and available soon
