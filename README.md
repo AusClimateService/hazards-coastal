@@ -32,7 +32,7 @@ In terms of the methods:
   - Identify years in projection timeseries (for different SLR scenarios) where SLR equals the increment of interest
   - Use the flood days estimate for all scenarios to estimate an average 10th, 50th and 90th percentile estimate from.
 - Flood extent:
-* MF: All approaches use the formula of Hunter (2012) [https://doi.org/10.1007/s10584-011-0332-1] MF = exp(SLR/lambda), where lambda is the Gumbel scale parameter. This assumes no change in future tides and storm surges. Three different estimates of MF are obtaining by fitting the Gumbel distribution to annual maxima of three different datasets:
+* MF: All approaches use the formula of Hunter (2012) [https://doi.org/10.1007/s10584-011-0332-1] MF = exp(SLR/lambda), where lambda is the Gumbel scale parameter. This assumes no change in future tides and storm surges. Three different estimates of MF are obtained by fitting the Gumbel distribution to annual maxima of three different datasets:
   - quality controlled but unhomogenised tide gauge data from GESLA3 (Haigh et al. 2022) [https://doi.org/10.1002/gdj3.174]. These are files of MFSLR_GESLA3_MMALL_SLR<>.csv
   - storm-tide reanalysis of Colberg et al. (2019) [https://doi.org/10.5194/nhess-19-1067-2019]  (see column 'SWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
   - storm-tide reanalysis of Colberg et al. (2019) with addition of empirical estimate for shoreline wave setup from O'Grady et al. (2019) [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JC014871] (see column 'MTWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
