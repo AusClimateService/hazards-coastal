@@ -8,8 +8,7 @@ GitHub repository for ACS Coastal Hazard Team to store, track and develop code.
 - Mean Sea Level (Essential Climate Variable)
 - Flood days
 - Flood extent of 1% AEP
-- Change in frequency (multiplication factor) of storm tide levels (MF-ST)
-- Change in frequency (multiplication factor) of total water levels (MF-TW)
+- Change in frequency (multiplication factor) of storm tide levels (flooding metric) and total water levels (erosion metric).
 
 ## Products:
 Status of the NCRA deliverables. 
@@ -34,8 +33,7 @@ In terms of the colors:
 | MSL |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
 | Flood days |:green_circle:|:green_circle:|:green_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_days |
 | Flood extent |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
-| MF-ST|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF-ST|
-| MF-TW |:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF-TW|
+| MF|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF-ST|
 
 ## Roadmap
 Coming soon..
