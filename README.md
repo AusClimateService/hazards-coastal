@@ -36,14 +36,16 @@ In terms of the methods:
   - quality controlled but unhomogenised tide gauge data from GESLA3 (Haigh et al. 2022) [https://doi.org/10.1002/gdj3.174]. These are files of MFSLR_GESLA3_MMALL_SLR<>.csv
   - storm-tide reanalysis of Colberg et al. (2019) [https://doi.org/10.5194/nhess-19-1067-2019]  (see column 'SWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
   - storm-tide reanalysis of Colberg et al. (2019) with addition of empirical estimate for shoreline wave setup from O'Grady et al. (2019) [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JC014871] (see column 'MTWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
+  - For further information, please see: https://github.com/AusClimateService/ncra_coastal_hazards and the compiled markdown page https://htmlpreview.github.io/?https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Extreme_water_level_hazards.html
+Both of which have an accurate description of the data and code for reference.
 
-(Table was last updated 12pm 27/06/2024)
+(Table was last updated 3pm 27/06/2024)
 
 | Index/metric | SLRI data | SLRI 2D map |  SLRI change data |  SLRI change map |(Notes) |
 |-----         | :-:      |:-:      |:-:            |:-:            |-----    |
-| MSL |:yellow_circle:|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
+| MSL |:yellow_circle:|:yellow_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
 | Flood days |:green_circle:|:green_circle:|:green_circle:|:green_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_days |
-| Flood extent |:yellow_circle:|:yellow_circle:|:yellow_circle:|:yellow_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
+| Flood extent |:yellow_circle:|:yellow_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
 | MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF|
 
 ## Roadmap
