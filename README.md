@@ -7,7 +7,7 @@ GitHub repository for ACS Coastal Hazard Team to store, track and develop code.
 ## Indices considered by the hazard team:
 - Mean Sea Level (Essential Climate Variable)
 - Flood days
-- Flood extent of 1% AEP
+- Flood extent of 1% AEP extreme water level
 - Change in frequency (multiplication factor) of storm tide levels (flooding metric) and total water levels (erosion metric).
 
 ## Products:
@@ -27,11 +27,11 @@ In terms of the colors:
 - :white_circle: Not intended for delivery/not applicable
 
 In terms of the methods:
-- MSL:
+- MSL: Regional sea level projection datasets are provided at yearly (2020 - 2150) under 5 SSPs (119, 126, 245, 370, 585) in NC format for Australian region (105E-165E, 5S-50S), rather than using the sea level rise increments.
 * Flood days: These were calculated using results from Hague & Talke (2024) [https://doi.org/10.1029/2023EF003993]. This provides 1000 different future realisation of flood days, based on different ways of storm surges and tides coinciding. This assumes no change in future tides and storm surges, based on homogenised sea-level data and IPCC AR6 SLR projections. The original SLR projection source was reapplied to the data to re-express the results in terms of GWL, as follows:
   - Identify years in projection timeseries (for different SLR scenarios) where SLR equals the increment of interest
   - Use the flood days estimate for all scenarios to estimate an average 10th, 50th and 90th percentile estimate from.
-- Flood extent:
+- Flood extent: Refer: [https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Inundation_layers.html](https://htmlpreview.github.io/?https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Inundation_layers.html). The SLR increments are approximated using Year 2020 for SSP1-2.6 (0.06 m), 2030 for SSP1-2.6 (0.1 mm), 2050 for SSP2-4.5 (0.20 m), 2090 for SSP1-2.6 (0.38 m), 2090 for SSP5-8.5 (0.6 m), and 2100 for SSP5-8.5 (1 m). The underlying DEM has fundamental vertical accuracy of 0.3 m and horizontal accuracy of 0.8 m. The datafiles (geoJSON) are presented by Local Government Area.
 * MF: All approaches use the formula of Hunter (2012) [https://doi.org/10.1007/s10584-011-0332-1] MF = exp(SLR/lambda), where lambda is the Gumbel scale parameter. This assumes no change in future tides and storm surges. Three different estimates of MF are obtained by fitting the Gumbel distribution to annual maxima of three different datasets:
   - quality controlled but unhomogenised tide gauge data from GESLA3 (Haigh et al. 2022) [https://doi.org/10.1002/gdj3.174]. These are files of MFSLR_GESLA3_MMALL_SLR<>.csv
   - storm-tide reanalysis of Colberg et al. (2019) [https://doi.org/10.5194/nhess-19-1067-2019]  (see column 'SWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
@@ -39,14 +39,14 @@ In terms of the methods:
   - For further information, please see: https://github.com/AusClimateService/ncra_coastal_hazards and the compiled markdown page https://htmlpreview.github.io/?https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Extreme_water_level_hazards.html
 Both of which have an accurate description of the data and code for reference.
 
-(Table was last updated 3pm 27/06/2024)
+(Table was last updated 430pm 28/06/2024)
 
 | Index/metric | SLRI data | SLRI 2D map |  SLRI change data |  SLRI change map |(Notes) |
 |-----         | :-:      |:-:      |:-:            |:-:            |-----    |
-| MSL |:yellow_circle:|:yellow_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MSL|
-| Flood days |:green_circle:|:green_circle:|:green_circle:|:green_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_days |
-| Flood extent |:yellow_circle:|:yellow_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
-| MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:|deliverable for 30 June <br> Data is at /g/data/ia39/ncra/coastal/MF|
+| MSL |:green_circle:|:green_circle:|:white_circle:|:white_circle:|Data present as annual under SSP, not SLRI <br> Data is at /g/data/ia39/ncra/coastal/MSL|
+| Flood days |:green_circle:|:green_circle:|:green_circle:|:green_circle:| Data is at /g/data/ia39/ncra/coastal/flood_days |
+| Flood extent |:green_circle:|:white_circle:|:white_circle:|:white_circle:|geoJSON files at LGA scale information only. <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
+| MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:| Data is at /g/data/ia39/ncra/coastal/MF|
 
 ## Roadmap
 Coming soon..
