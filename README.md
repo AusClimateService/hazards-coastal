@@ -49,7 +49,7 @@ Both of which have an accurate description of the data and code for reference.
 | MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:| Data is at /g/data/ia39/ncra/coastal/MF|
 
 ## Example of Climate Risk Overview information
-The below plot shows that current record flood levels will be exceeded frequently in the future. Under 0.2 m SLR, we estimate a 50% chance that these sea levels will occur annually on average. Under 1 m SLR they have 90% chance of occurring 200 days per year on average nationally. In some locations in south-east and south-west Australia, the current record flood level will be exceeded on a daily (or near-daily) basis.
+The below plot shows that current record flood levels will be exceeded frequently in the future. Under 0.2 m SLR, we estimate a 50% chance that these sea levels will occur annually on average. Under 0.6 m SLR, these record flood levels will occur multiple days per year at all locations nationally. Averaged across all sites we expect 58 days per year that exceed the current record level. Some locations expect as many as 150 days per year of (present-day) record flooding, with a 10% chance of more than 175 days per year.
 
 ![record_exceeds_means](https://github.com/AusClimateService/hazards-coastal/assets/172552060/8bf3c947-69c9-488e-9c29-0d3af3405445)
 
