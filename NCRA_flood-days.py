@@ -171,7 +171,7 @@ for file in glob.glob('{}*_exceeds_means.csv'.format(temp_dir)):
     #import data
     minor=pd.read_csv(file).set_index('site')
     #initialise plot
-    fig = plt.figure(figsize=(23,34))
+    fig = plt.figure(figsize=(28,34))
     fig.suptitle('Annual exceedances of {} level under sea-level rise increments'.format(type_str_dict[file.split('\\')[-1].split('_')[0]]),fontsize=28,y=0.91)
     matplotlib.rcParams.update({'font.size': 18}) 
     for i in range(15):
@@ -222,7 +222,7 @@ for file in glob.glob('{}*_exceeds_means_diff.csv'.format(temp_dir)):
     #import data
     minor=pd.read_csv(file).set_index('site')
     #initialise plot
-    fig = plt.figure(figsize=(23,29))
+    fig = plt.figure(figsize=(29,29))
     fig.suptitle('Annual exceedances of {} level under sea-level rise increments: \n difference to 0.06 m '.format(type_str_dict[file.split('\\')[-1].split('_')[0]]),fontsize=28,y=0.91)
     matplotlib.rcParams.update({'font.size': 18}) 
     for i in range(12):
