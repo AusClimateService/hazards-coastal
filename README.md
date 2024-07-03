@@ -60,7 +60,7 @@ The below plot shows that minor flooding will occur frequently in the future. Un
 
 Some limitations that apply to all indices that follow from the fundamental assumptions that underpin their production. For example, we only consider the effect of mean sea level rise on future hazards, we do not consider any changes in sea level variability. This means we assume that storm surge magnitudes and tidal ranges do not change from the historical period. 
 
-The MF calculations assume that a Gumbel distribution is the most appropriate for characterising the relationship between sea level heights and frequency.
+The MF calculations assume that a Gumbel distribution is the most appropriate for characterising the relationship between sea level heights and frequency. A consequence of this is that the factor by which sea level extremes increase is frequency is the same regardless of flood severity - the factor by which the frequency of the present-day 1% AEP increases is the same as the once-a-year level, for example.
 
 - What are some of the key insights?
 
