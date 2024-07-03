@@ -45,7 +45,7 @@ Both of which have an accurate description of the data and code for reference.
 |-----         | :-:      |:-:      |:-:            |:-:            |-----    |
 | MSL |:green_circle:|:green_circle:|:white_circle:|:white_circle:|Data present as annual under SSP, not SLRI <br> Data is at /g/data/ia39/ncra/coastal/MSL|
 | Flood days |:green_circle:|:green_circle:|:green_circle:|:green_circle:| Data is at /g/data/ia39/ncra/coastal/flood_days |
-| Flood extent |:green_circle:|:white_circle:|:white_circle:|:white_circle:|geoJSON files at LGA scale information only. <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
+| Flood extent |:green_circle:|:green_circle:|:white_circle:|:white_circle:|geoJSON files at LGA scale information only. <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
 | MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:| Data is at /g/data/ia39/ncra/coastal/MF|
 
 ## Example of Climate Risk Overview information
