@@ -32,7 +32,7 @@ In terms of the methods:
   - Identify years in projection timeseries (for different SLR scenarios) where SLR equals the increment of interest
   - Use the flood days estimate for all scenarios to estimate an average 10th, 50th and 90th percentile estimate from.
 - Flood extent: Refer: [https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Inundation_layers.html](https://htmlpreview.github.io/?https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Inundation_layers.html). The SLR increments are approximated using Year 2020 for SSP1-2.6 (0.06 m), 2030 for SSP1-2.6 (0.1 mm), 2050 for SSP2-4.5 (0.20 m), 2090 for SSP1-2.6 (0.38 m), 2090 for SSP5-8.5 (0.6 m), and 2100 for SSP5-8.5 (1 m). The underlying DEM has fundamental vertical accuracy of 0.3 m and horizontal accuracy of 0.8 m. The datafiles (geoJSON) are presented by Local Government Area.
-* MF: All approaches use the formula of Hunter (2012) [https://doi.org/10.1007/s10584-011-0332-1] MF = exp(SLR/lambda), where lambda is the Gumbel scale parameter. This assumes no change in future tides and storm surges. Three different estimates of MF are obtained by fitting the Gumbel distribution to annual maxima of three different datasets:
+* MF: All approaches use the formula of Hunter (2012) [https://doi.org/10.1007/s10584-011-0332-1] MF = exp(SLR/lambda), where lambda is the Gumbel scale parameter. Three different estimates of MF are obtained by fitting the Gumbel distribution to annual maxima of three different datasets:
   - quality controlled but unhomogenised tide gauge data from GESLA3 (Haigh et al. 2022) [https://doi.org/10.1002/gdj3.174]. These are files of MFSLR_GESLA3_MMALL_SLR<>.csv
   - storm-tide reanalysis of Colberg et al. (2019) [https://doi.org/10.5194/nhess-19-1067-2019]  (see column 'SWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
   - storm-tide reanalysis of Colberg et al. (2019) with addition of empirical estimate for shoreline wave setup from O'Grady et al. (2019) [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JC014871] (see column 'MTWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
@@ -54,8 +54,25 @@ The below plot shows that minor flooding will occur frequently in the future. Un
 ![minor_exceeds_means](https://github.com/AusClimateService/hazards-coastal/assets/172552060/49609b63-fd93-4aa8-b699-5d7ea1cb385f)
 
 
-## Contributing
-Open to contributions. 
+## FAQs 
+(a work in progress, contact ben.hague at bom.gov.au if you have a question that is not answered here)
+- What are the limitations of the indices and data?
+
+Some limitations that apply to all indices that follow from the fundamental assumptions that underpin their production. For example, we only consider the effect of mean sea level rise on future hazards, we do not consider any changes in sea level variability. This means we assume that storm surge magnitudes and tidal ranges do not change from the historical period. 
+
+The MF calculations assume that a Gumbel distribution is the most appropriate for characterising the relationship between sea level heights and frequency.
+
+- What are some of the key insights?
+
+Present-day sea level extremes and associated flood impacts will become very frequent with future sea-level rise, especially in locations in estuaries, harbours, and bays where the effects of breaking waves on water levels are minimal. 
+
+Sea level extremes and flood heights will increase approximately in line with increases in mean sea level. For example, the 1% annual exceedance probability (AEP) flood level under 0.2 m SLR will be 0.2 m higher than the 1% AEP level today.
+
+- How are the percentiles calculated?
+
+For flood days, these represent the effect of different ways that storm surges and tide can coincide on flood day estimates under the SLR increment considers. They are a measure of aleatoric/stochastic uncertainty.
+
+For MF, these represent different amounts of SLR, based on the underlying SSP scenarios identified above. For example, the 0.20 m SLR increment is the 50th percentile in the 0.20 m SLR increment files, but the 10th and 90th percentiles are 0.17 m and 0.26 m respectively. They are a measure of epistemic (SLR response to climate system changes) uncertainty. See: https://github.com/AusClimateService/ncra_coastal_hazards for more information.
 
 ## Authors and acknowledgment
 Hazard team:
