@@ -13,10 +13,10 @@ GitHub repository for ACS Coastal Hazard Team to store, track and develop code.
 ## Products:
 Global Warming Levels are unsuitable for understanding sea-level rise (SLR)-related hazards due to SLR continuing long after temperatures stabilise. 
 We selected several SLR increments (SLRI) relative to the IPCC AR6 baseline of 1995 – 2014 for the National Climate Risk Assessment as follows:
-- 0.06 m: Approximately 2010-2029 mean, the "present-day" period used in NCRA)
+- 0.06 m: Approximately 2010-2029 mean, the "present-day" period used in NCRA
 - 0.1 m: Approximate projected SLR at 2030
 - 0.2 m: Approximate projected SLR at 2050
-- 0.38 m: Approximate projected SLR GWL 2.0, assuming GWL 3.0 is reached in 2090.
+- 0.38 m: Approximate projected SLR GWL 2.0, assuming GWL 2.0 is reached in 2090.
 - 0.6 m: Approximate projected SLR at GWL 3.0, assuming GWL 3.0 is reached in 2090.
 - 1.0 m: Higher-end projected SLR consistent with jurisdictional planning benchmarks used in Australia (c.f., Dedekorkut-Howes et al. 2021, DOI: 10.1080/14693062.2020.1819766)
   
