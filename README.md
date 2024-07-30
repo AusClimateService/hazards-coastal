@@ -38,15 +38,16 @@ In terms of the methods:
   - storm-tide reanalysis of Colberg et al. (2019) with addition of empirical estimate for shoreline wave setup from O'Grady et al. (2019) [https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JC014871] (see column 'MTWL_MFSLR_<>' in files of format MFSLR_ACSSH_MMALL_SLR<>.csv)
   - For further information, please see: https://github.com/AusClimateService/ncra_coastal_hazards and the compiled markdown page https://htmlpreview.github.io/?https://github.com/AusClimateService/ncra_coastal_hazards/blob/main/Extreme_water_level_hazards.html
 Both of which have an accurate description of the data and code for reference.
+  - Difference data is provided at /g/data/ia39/ncra/coastal/MF/difference_files. The names of the files are the associated additional SLR relative to the 2021 - 2030 baseline period (0.06 m above IPCC AR6 baseline).
 
-(Table was last updated 430pm 28/06/2024)
+(Table was last updated 11201m 30/07/2024)
 
 | Index/metric | SLRI data | SLRI 2D map |  SLRI change data |  SLRI change map |(Notes) |
 |-----         | :-:      |:-:      |:-:            |:-:            |-----    |
 | MSL |:green_circle:|:green_circle:|:white_circle:|:white_circle:|Data present as annual under SSP, not SLRI <br> Data is at /g/data/ia39/ncra/coastal/MSL|
 | Flood days |:green_circle:|:green_circle:|:green_circle:|:green_circle:| Data is at /g/data/ia39/ncra/coastal/flood_days |
 | Flood extent |:green_circle:|:green_circle:|:white_circle:|:white_circle:|geoJSON files at LGA scale information only. <br> Data is at /g/data/ia39/ncra/coastal/flood_extents|
-| MF|:green_circle:|:green_circle:|:white_circle:|:white_circle:| Data is at /g/data/ia39/ncra/coastal/MF|
+| MF|:green_circle:|:green_circle:|:green_circle:|:white_circle:| Data is at /g/data/ia39/ncra/coastal/MF|
 
 ## Example of Climate Risk Overview information
 The below plot shows that minor flooding will occur frequently in the future. Under 0.2 m SLR, we estimate a 50% chance that these sea levels will occur 38 days per year on average. Under 0.6 m SLR, these these minor flood levels will occur daily at some locations with 90% probability. Flooding will be chronic at many other locations in eastern Australia. 
